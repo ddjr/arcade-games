@@ -1,4 +1,6 @@
 <html>
+  <h1>Arcade Games</h1>
+  <h2>Move Mouse to Hit Ball</h2>
 <canvas id="gameCanvas" width="800" height ="600"></canvas>
 <script>
 // Canvas
@@ -214,4 +216,41 @@ function colorRect(leftX, topY, width, height, drawColor) {
   canvasContext.fillRect(leftX,topY, width, height);
 }
 </script>
+<ul>
+  <li><a href="#">Pong</a></li>
+  <li><a href="../BrickBreak/brickBreak-Version1.html">Brick Break</a></li>
+  <li><a href="../flappyBird/index.html">Flappy Birds</a></li>
+  <li><a href="../runner/index.html">Runner!</a></li>
+  <li><a href="../snakeGame/index.html">Snake</a></li>
+  <li><a href="../spaceInvader/index.html">Space Invaders</a></li>
+</ul>
+</body>
+<style>
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+}
+a {
+  /* text-decoration: none; */
+  color: black;
+  padding: 10px;
+  
+
+}
+ul {
+  display: flex;
+
+}
+li {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */ 
+  background-color: #d3d3d3;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+</style>
 </html>
